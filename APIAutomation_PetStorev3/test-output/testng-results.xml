@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-07T01:35:02 PKT" name="Default suite" finished-at="2023-11-07T01:35:10 PKT" duration-ms="8033">
+    <groups>
+    </groups>
+    <test started-at="2023-11-07T01:35:02 PKT" name="Default test" finished-at="2023-11-07T01:35:10 PKT" duration-ms="8033">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@3c19aaa5]" started-at="2023-11-07T01:35:02 PKT" name="setupData" finished-at="2023-11-07T01:35:03 PKT" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@3c19aaa5]" started-at="2023-11-07T01:35:03 PKT" name="testPostUser" finished-at="2023-11-07T01:35:09 PKT" duration-ms="6062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserTests@3c19aaa5]" started-at="2023-11-07T01:35:09 PKT" name="testGetUserByName" finished-at="2023-11-07T01:35:10 PKT" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+      </class> <!-- api.test.UserTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
