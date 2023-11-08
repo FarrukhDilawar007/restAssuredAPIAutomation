@@ -6,8 +6,7 @@
       <class name="api.test.UserTests">
         <methods>
           <include name="setupData"/>
-          <include name="testPostUser"/>
-          <include name="testGetUserByName"/>
+          <include name="testCreateUser"/>
         </methods>
       </class> <!-- api.test.UserTests -->
     </classes>
